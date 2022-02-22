@@ -1,0 +1,293 @@
+/* &display=swap */
+@import "null.css";
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ================================================================ */
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+
+
+
+
+.wrapper {
+}
+.container-figma {
+	max-width: 810px;
+	margin: 0 auto;
+	padding: 152px 0px 0px 0px;
+	font-family: "Lato", sans-serif;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header-figma {
+	margin: 0px 0px 40px 0px;
+}
+.title-figma {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	margin: 0px 0px 26px 0px;
+}
+span.data, span.time {
+	display: inline-block;
+	color: #787A80;
+text-shadow: none;	
+}
+span.data{
+	background: url("../img/Calendar.png") 0 4px / 16px no-repeat;
+	min-height: 16px;
+	line-height: 1.6;
+	padding: 0px 0px 0px 24px;
+	margin: 0px 24px 0px 0px;
+}
+span.time{
+		background: url("../img/Clock.png") 0 4px / 16px no-repeat;
+	min-height: 16px;
+		line-height: 1.6;
+	padding: 0px 0px 0px 24px;
+}
+.main-figma {
+}
+.content-figma {
+	font-size: 16px;
+	line-height: 1.6;
+	color: #424551;
+}
+.sunglasses {
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	margin: 0px 0px 60px 0px;
+}
+.bold {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	color:#1E212C;
+	margin: 0px 0px 24px 0px;
+}
+.two-text {
+	margin: 0px 0px 48px 0px;
+}
+.first {
+	margin: 0px 0px 39px 0px;
+}
+.bold-second {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	color:#1E212C;
+	margin: 0px 0px 48px 0px;
+	background: url("../img/braces.jpg") 0 0 / 28px no-repeat;
+	min-height: 28px;
+	padding: 0px 0px 0px 43px;
+	text-shadow: none;
+}
+.litle-text {
+margin: 0px 0px 24px 0px;
+}
+ul.list-figma li {
+	background: url("../img/check.jpg") 0px 4px / 16px no-repeat;
+	min-height: 16px;
+	padding: 0px 0px 0px 31px;
+	margin: 0px 0px 4px 0px;
+	max-width: 600px;
+}
+.list-figma{
+	margin: 0px 0px 24px 0px;
+}
+.last-text {
+		margin: 0px 0px 90px 0px;
+}
+.block {
+	text-shadow: none;
+	margin: 0px 0px 30px 0px;	
+}
+.header-figma.header{
+	color: #1E212C;
+
+}
+.title{
+		font-weight: 700;
+		font-size: 16px;
+		text-transform: uppercase;	
+		letter-spacing: 1px;
+		margin: 0px 0px 8px 0px;
+}
+ul.list-figma.createx{
+margin: 0px 0px 22px 0px;
+}
+.button-figma {
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	line-height: 3.1;
+	text-align: center;
+	color: #fff;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+border-radius: 4px;
+padding: 0px 32.5px;
+display: inline-block;
+}
+
+.footer {
+}
+
+
+
+
+.wrapper {
+}
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+	background: radial-gradient(circle, rgb(44, 19, 112) 0%, rgba(148,233,217,1) 100%);
+}
+.header {
+	margin: 0px 0px 30px 0px;
+}
+.nav {
+}
+.menu {
+	font-size: 0;
+	margin: 0px 0px 20px 0px;
+}
+span.span-menu {
+	display: inline-block;
+	outline: 1px solid #787A80;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	padding: 15px;
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
+	100%);
+}
+.link-menu {
+}
+.container-header {
+max-width: 900px;
+}
+.title-color {
+	font-size: 35px;
+	border: 1px solid #978;
+	border-radius: 30% 70% 70% 30% / 55% 53% 47% 45%;
+	background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,253,219,1) 100%);
+	display: inline-block;
+	box-shadow: inset 2px 1px 3px 3px rgb(177, 112, 112);
+	margin: 0px 0px 10px 0px;
+	overflow: hidden;
+}
+.subtitle-color {
+	background:#978;
+	color: #fff;
+	padding: 10px;
+	display: inline-block;
+	border-radius:10px;
+}
+.main {
+}
+.content {
+	font-family: "Lato", sans-serif;
+	background:url("../img/R.jpeg") 0 0 repeat; 
+}
+.block-block {
+	padding: 10px;
+	color: rgb(113, 103, 201);
+}
+.block-text {
+	margin: 0px 0px 15px 0px;
+	font-size: 20px;
+	line-height: 1.2;
+}
+.block-first {
+}
+.button-block {
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: underline;
+	padding: 20px;
+	color: rgb(182, 47, 47);
+	background: rgb(18, 155, 165);
+border-radius:	82% 18% 0% 100% / 75% 42% 58% 25%;
+box-shadow:inset 3px 0px 4px 2px rgba(243, 225, 225, 0.712);
+margin: 0px 20px 18px 0px;
+}
+.button-block.red{
+	background:#b31c17;
+	color: #fff;
+	text-decoration: none;
+}
+.button-block.blue{
+	outline: 10px dashed#78d112;
+			background: rgb(40, 16, 148);
+
+}
+.button-block.green{
+		background: rgb(21, 112, 48);
+	border-radius:	82% 18% 0% 10% / 75% 92% 58% 25%;
+}
+ul.list-color li{
+	color: rgb(225, 228, 40);
+	font-size: 25px;
+	line-height: 1.2;
+	background: url("../img/depositphotos_29226713-stock-illustration-vector-check-icon.jpeg") 0 11px / 30px no-repeat;
+	min-height: 40px;
+	padding: 0px 0px 0px 30px;
+}
+span.inline{
+	font-size: 30px;
+	line-height: 1.5;
+	border-bottom: 3px dotted #a90808cd;
+}
+.fixed{
+	background:url("../img/1.png") 0 0 repeat fixed;
+	color: rgb(212, 223, 18);
+	font-size: 35px;
+	line-height: 1.2;
+}
+p.text-fixed{
+	margin: 0px 0px 20px 0px;
+}
+
+.footer {
+}
+.container-footer{
+		background: linear-gradient(0deg, rgb(184, 195, 34) 0%, rgb(253, 45, 236) 100%);
+	padding: 50px;
+}
+.paragraph{
+	font-size: 20px;
+	text-shadow: 2px 3px 1px rgb(71, 29, 187);
+		text-align: center;
+		margin: 0px 0px 20px 0px;
+}
+span.text-bold{
+	display: inline-block;
+	font-weight: 700;
+	font-size: 18px;
+	background: url("../img/check.jpg") 0 0 / 18px no-repeat;
+	min-height:18px;
+	padding: 0px 30px 0px 25px;
+}
+
